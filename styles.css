@@ -1,0 +1,104 @@
+/* Reset osnovnog stila */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0; /* Svetlo siva */
+    color: #333; /* Tamno siva boja teksta */
+    margin: 0;
+}
+
+/* Header sa slikom u pozadini */
+header {
+    position: relative;
+    height: 100vh;
+    background: url('https://www.ilikewallpaper.net/iphone-wallpaper/black-3d-blocks/5373') no-repeat center center/cover;
+    text-align: center;
+    color: white;
+}
+
+header .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Prozirni tamni sloj preko slike */
+}
+
+header h1 {
+    position: relative;
+    z-index: 2;
+    font-size: 3.5rem;
+    margin-top: 50vh;
+    transform: translateY(-50%);
+}
+
+nav {
+    position: relative;
+    z-index: 2;
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    border-color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Sekcije */
+section {
+    padding: 4rem;
+    max-width: 1200px;
+    margin: 2rem auto;
+    background-color: white;
+    border-radius: 8px
+
+#about {
+    padding: 4rem; /* Razmak oko sekcije */
+    max-width: 1200px; /* Maksimalna širina */
+    margin: 2rem auto; /* Centriranje sekcije */
+    background-color: white; /* Pozadina sekcije */
+    border-radius: 8px; /* Zaobljeni uglovi */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Senka */
+}
+
+#about h2 {
+    font-size: 2.5rem; /* Veličina naslova */
+    color: #333; /* Tamna boja naslova */
+    margin-bottom: 1rem; /* Razmak ispod naslova */
+    text-align: center; /* Centriranje naslova */
+    border-bottom: 2px solid #3498db; /* Linija ispod naslova */
+    padding-bottom: 0.5rem; /* Razmak ispod linije */
+}
+
+#about p {
+    font-size: 1.2rem; /* Veličina teksta */
+    color: #666; /* Svetlija tamna boja teksta */
+    margin-bottom: 1.5rem; /* Razmak ispod paragrafa */
+    line-height: 1.6; /* Prostor između redova */
+}
+
+./* Uključivanje Google fonta (dodaj u <head> sekciju tvoje HTML stranice) */
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
